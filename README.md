@@ -34,8 +34,12 @@ Figure 1. Gambar purwarupa menampilkan prototipe sistem penjemur kopi otomatis s
 4. Pengendalian Aktuator: Berdasarkan keputusan Fuzzy Logic, Raspberry Pi menggerakkan aktuator yang sesuai.
 5. Penyimpanan & Monitoring: Semua data sensor dan status aktuator diunggah ke Firebase untuk monitoring secara real-time.
 
+## Aplikasi monitoring berbasis web
+[Aplikasi monitoring berbasis web](https://penjemur-kopi.vercel.app/)
+
 ## Logsheet
 1. Syabana Minggus Noviantosa | 118140122 | Teknik informatika
 2. Solafide Zamili | 121140201 | Teknik Informatika
 3. Marchel Ferry Timoteus  Samosir | 121140195 | Teknik Informatika
 4. Hamas Azhar | 119140138 | Teknik Informatika
+
