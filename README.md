@@ -23,7 +23,7 @@ Menggabungkan tugas akuisisi data (Arduino) dan pemrosesan logika (Raspberry Pi)
 Data dapat dipantau dari jarak jauh melalui Firebase dan antarmuka web yang terhubung.
 
 
-[![Alt text](https://github.com/201solafide/penjemur-kopi/image/IMG20231216091411.jpg)]
+![Alt text](images/IMG20231216091411.jpg)
 Figure 1. Gambar purwarupa menampilkan prototipe sistem penjemur kopi otomatis secara keseluruhan. Terlihat kanopi pelindung yang dapat digerakkan, serta lokasi penempatan berbagai sensor (seperti sensor hujan dan sensor suhu/kelembaban) dan aktuator (motor servo dan pemanas). Gambaran ini memberikan visualisasi yang jelas tentang bagaimana komponen-komponen hardware berinteraksi satu sama lain dalam sistem fisik yang telah dibangun.
 
 
@@ -33,3 +33,9 @@ Figure 1. Gambar purwarupa menampilkan prototipe sistem penjemur kopi otomatis s
 3. Pemrosesan Logika: Raspberry Pi 2 memproses data sensor menggunakan algoritma Fuzzy Logic untuk menentukan apakah cuaca cerah (kanopi terbuka) atau hujan (kanopi tertutup dan pemanas menyala).
 4. Pengendalian Aktuator: Berdasarkan keputusan Fuzzy Logic, Raspberry Pi menggerakkan aktuator yang sesuai.
 5. Penyimpanan & Monitoring: Semua data sensor dan status aktuator diunggah ke Firebase untuk monitoring secara real-time.
+
+## Logsheet
+1. Syabana Minggus Noviantosa | 118140122 | Teknik informatika
+2. Solafide Zamili | 121140201 | Teknik Informatika
+3. Marchel Ferry Timoteus  Samosir | 121140195 | Teknik Informatika
+4. Hamas Azhar | 119140138 | Teknik Informatika
