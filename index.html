@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Penjemur Kopi Otomatis</title>
+    <!-- Import Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Sistem Monitoring Kopi</h1>
+    <p class="subtitle">Data sensor real-time dari Raspberry Pi</p>
+
+    <div class="data-grid">
+        <div class="data-card">
+            <h2>Suhu</h2>
+            <div id="suhu-value" class="data-value">--</div>
+            <p>Celcius (&deg;C)</p>
+        </div>
+        <div class="data-card">
+            <h2>Kelembaban Udara</h2>
+            <div id="hum-value" class="data-value">--</div>
+            <p>Persen (%)</p>
+        </div>
+        <div class="data-card">
+            <h2>Tekanan Udara</h2>
+            <div id="pre-value" class="data-value">--</div>
+            <p>Hectopascal (hPa)</p>
+        </div>
+        <div class="data-card">
+            <h2>Kelembaban Tanah</h2>
+            <div id="wet-value" class="data-value">--</div>
+            <p>Persen (%)</p>
+        </div>
+    </div>
+    
+    <p id="status-message" class="loading">Memuat data...</p>
+
+</div>
+<script src="javascript.js"></script>
+
+</body>
+</html>
